@@ -1,0 +1,19 @@
+{
+    "name": "portfolio",
+    "description": "Portfolio site for Tim Medcalf",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Tim Medcalf",
+            "email": "tjmedcalf@gmail.com"
+        }
+    ],
+    "require": {
+        "silverstripe/recipe-cms": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Portfolio\\ExtendedPageTypes\\": "src/"
+        }
+    }
+}
