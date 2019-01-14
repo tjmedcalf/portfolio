@@ -10,4 +10,9 @@ class HomePageController extends PageController {
                     ->filter(array('isFeatured' => 1))
                     ->limit($count);
     }
+    
+    public function RecentWork($count = 3) {
+        return WorkPage::get()
+                    ->limit($count);
+    }
 }
